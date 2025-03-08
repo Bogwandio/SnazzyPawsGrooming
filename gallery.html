@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Browse through our gallery at Snazzy Paws Grooming to see the stunning transformations of our furry clients. Discover before-and-after grooming results and get inspired for your pet's next visit.">
+    <title>Gallery - Snazzy Paws Grooming</title>
+
+    <!-- Import Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navigation -->
+    <header class="navbar navbar-expand-lg d-flex align-items-center position-sticky top-0">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand fs-4 ms-1 ms-md-3 me-1 me-md-4 fw-bold">Snazzy Paws Grooming</a>
+
+            <!-- Mobile Menu Toggle -->
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-label="Open Mobile Navigation Menu">
+                <span class="navbar-toggler-icon outline-0"></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <div class="collapse navbar-collapse" id="navbarCollapse" aria-expanded="false" role="navigation">
+                <nav class="navbar-nav mt-3 mt-md-0" aria-label="Main Navigation">
+                    <a href="index.html" class="mx-1 my-1 my-lg-0 py-2 px-4 rounded">Home</a>
+                    <a href="services.html" class="mx-1 my-1 my-lg-0 py-2 px-4 rounded">Services</a>
+                    <a href="booking.html" class="mx-1 my-1 my-lg-0 py-2 px-4 rounded">Booking</a>
+                    <a href="gallery.html" class="current-page mx-1 my-1 my-lg-0 py-2 px-4 rounded">Gallery</a>
+                    <a href="contact.html" class="mx-1 my-1 my-lg-0 py-2 px-4 rounded">Contact</a>
+                </nav>
+
+                <!-- Right Section (Form & Icons) -->
+                <div class="navbar-nav ms-auto d-flex align-items-center">
+                    <form class="search-form d-flex align-items-center" action="#" method="get">
+                        <input class="form-control navbar-search-input ms-3" type="search" placeholder="Search"
+                            aria-label="Search Input">
+                        <button class="btn" type="submit" aria-label="Search Button"><img class="icon-link"
+                                src="./icons/search.svg" alt="Search"></button>
+                    </form>
+
+                    <div class="d-flex my-2 my-lg-0">
+                        <a href="#" aria-label="User Login"><img class="mx-2 icon-link" src="./icons/person-circle.svg"
+                                alt="Login"></a>
+                        <a href="#" aria-label="Notifications"><img class="mx-2 icon-link" src="./icons/bell-fill.svg"
+                                alt="Notifications"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow-1 my-4">
+        <!-- Page Header -->
+        <section>
+            <div class="container text-center my-4">
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                    <img src="./icons/image-photography-icon.svg" class="header-icon me-2" alt="Gallery">
+                    <h1 class="text-white">Gallery</h1>
+                </div>
+                <p class="text-white">Explore our gallery showcasing our amazing pet grooming transformations,
+                    simply select a picture to view the full-sized image in a new browser tab.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section>
+
+            <!-- Filters -->
+            <div class="container mb-4">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-end">
+                        <button class="filters text-decoration-none border-0 bg-transparent d-flex align-items-center"
+                            aria-label="Filter Options">
+                            <span class="me-2 text-white fs-5 fw-bold">Filters</span>
+                            <img src="./icons/sliders.svg" alt="Filters">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Grid (4x4) -->
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gallery-item p-1">
+                            <a class="text-decoration-none" href="#" target="_blank">
+                                <img class="rounded card-img-top" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.webp"
+                                    alt="Dog Name">
+                                <p class="card-title fw-bold my-2 text-center fs-4 text-white">Dog Name</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Menu -->
+    <footer class="w-100">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-12 col-md-3 my-4 my-md-0">
+
+                    <!-- Company Links -->
+                    <h3 class="mt-2 mt-md-4">Company</h3>
+                    <nav aria-label="Business Related Pages">
+                        <ul class="list-unstyled">
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="staffportal.html">Staff Portal</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-12 col-md-3 mb-4">
+
+                    <!-- Business Contact Details -->
+                    <h3 class="mt-2 mt-md-4">Contact Us</h3>
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mt-2">
+                        <img class="icon-link me-2" src="./icons/telephone-fill.svg" alt="Phone Number">
+                        <span>Phone</span>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mt-2">
+                        <img class="icon-link me-2" src="./icons/envelope-fill.svg" alt="Email">
+                        <span>Email</span>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mt-2">
+                        <img class="icon-link me-2" src="./icons/geo-alt-fill.svg" alt="Address">
+                        <span>Address</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4">
+                    <h3 class="mt-2 mt-md-4">Business Hours</h3>
+                    <span>Monday-Saturday 9am-5pm</span>
+                </div>
+                <div class="col-12 col-md-3 mb-4">
+
+                    <!-- Social Media -->
+                    <h3 class="mt-2 mt-md-4">Follow Us</h3>
+                    <div class="social-icon-container">
+                        <a href="#" aria-label="Facebook" class="me-3"><img class="icon-link" src="./icons/facebook.svg"
+                                alt="Facebook"></a>
+                        <a href="#" aria-label="Twitter" class="me-3"><img class="icon-link" src="./icons/twitter-x.svg"
+                                alt="Twitter"></a>
+                        <a href="#" aria-label="Instagram"><img class="icon-link" src="./icons/instagram.svg"
+                                alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Import Bootstrap last to avoid page loading errors -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

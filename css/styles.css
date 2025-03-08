@@ -1,0 +1,173 @@
+
+header, footer {
+    background-color: #352289;
+    color: #fff;
+    z-index: 1050;
+}
+
+footer a {
+    color: #fff;
+}
+
+body {
+    background-color: #5f46ba;
+}
+
+/* Navigation Bar */
+.navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
+    color: inherit;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.navbar-nav a:hover {
+    transform: scale(1.03);
+}
+
+.current-page, .navbar-nav a:hover {
+    background-color: #5f46ba;
+} 
+
+.navbar-toggler-icon {
+    filter: invert(100%) brightness(100%);
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-search-input {
+    height: 2.5rem;
+}
+
+.icon-link {
+    height: 2rem;
+    width: 2rem;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(57deg) brightness(111%) contrast(101%);
+    transition: transform 0.3s ease;
+}
+
+.icon-link:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.header-icon {
+    height: 3rem;
+    width: 3rem;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(57deg) brightness(111%) contrast(101%);
+}
+
+/* Home Page - Hero Image */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/hero-image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    height: auto;
+}
+
+.hero a {
+    background-color: #5f46ba;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #352289;
+    transform: scale(1.1);
+}
+
+/* Secondary Nav */
+.secondary-nav, .contact-form-container, .policy-container, .roster-table th {
+    background-color: #352289;
+}
+
+.menu-item {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1)
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.filters {
+    transition: transform 0.3s ease;
+}
+
+.filters:hover {
+    transform: scale(1.05);
+}
+
+.filters img {
+    height: 2rem;
+    width: 2rem;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(57deg) brightness(111%) contrast(101%);
+}
+
+.gallery-item {
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.form-container {
+    background-color: #352289;
+    max-width: 800px;
+}
+
+.booking-form button, .contact-form button {
+    background-color: #5f46ba;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.booking-form button:hover, .contact-form button:hover {
+    transform: scale(1.1);
+    background-color: #5f46ba;
+}
+
+.map-container {
+    min-height: 400px;
+}
+
+.map iframe {
+    border-bottom-left-radius: var(--bs-border-radius)!important;
+    border-bottom-right-radius: var(--bs-border-radius)!important;
+}
+
+.roster-table td, th {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width : 1300px) {
+    .search-form {
+        display: none !important;
+    }
+}
+
+/* Tablet & Desktop View */
+@media only screen and (min-width: 768px) {
+    .hero {
+        min-height: 75vh;
+    }
+
+    .map iframe {
+        border-top-right-radius: var(--bs-border-radius) !important;
+        border-bottom-right-radius: var(--bs-border-radius) !important;
+        border-bottom-left-radius: 0px !important;
+    }
+}
